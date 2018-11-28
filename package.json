@@ -1,0 +1,20 @@
+{
+  "name": "Bamazon-MySQL",
+  "version": "1.0.0",
+  "description": "Bamazon is an Amazon-like storefront that uses a MySQL database to store and manage data. The user is prompted to input the ID of the item and how many units they would like to buy. The app takes in the order and depletes stock from the store's inventory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Cbondy1/Bamazon-MySQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1Cbondy1/Bamazon-MySQL/issues"
+  },
+  "homepage": "https://github.com/1Cbondy1/Bamazon-MySQL#readme"
+}
