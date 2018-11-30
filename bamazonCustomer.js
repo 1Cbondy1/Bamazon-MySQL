@@ -23,7 +23,7 @@ function afterConnection() {
         if (err) throw err;
         console.log("\n");
         var productTable = [];
-        for (var i = 0; i < res.length; i++) {
+        for (var i = 0; i < 10; i++) {
                 var tempTable = {
                     ID: res[i].id,
                     Product: res[i].product_name,
@@ -33,7 +33,7 @@ function afterConnection() {
                 }
                 productTable.push(tempTable);
         }
-        console.log(console.table(productTable));
+        console.table(productTable);
         console.log("\n");
         whichItem();
     });
