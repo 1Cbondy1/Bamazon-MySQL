@@ -64,7 +64,7 @@
 			<key>contentSortColIsAsc</key>
 			<true/>
 			<key>contentViewport</key>
-			<string>{{0, 0}, {1226, 661}}</string>
+			<string>{{0, 0}, {694, 450}}</string>
 			<key>isToolbarVisible</key>
 			<true/>
 			<key>queries</key>
@@ -110,6 +110,7 @@ values ('Xbox One X', 'Electronics', 399, 10),
 	<key>queryHistory</key>
 	<array>
 		<string>SELECT * FROM products</string>
+		<string>USE bamazon_db</string>
 		<string>INSERT INTO products (product_name, department_name, price, stock_quantity) 
 values ('Xbox One X', 'Electronics', 399, 10),
 ('Festive Cotton Pajama Set', 'Clothing', 29, 30),
@@ -199,7 +200,6 @@ values ('Xbox One X', 'Electronics', 399, 15)
 values ('Christmas Trees', 'Garden', 79, 30)</string>
 		<string>INSERT INTO products (product_name, department_name, price, stock_quantity) 
 values ('Xbox One X', 'Electronics', 399, 15)</string>
-		<string>USE bamazon_db</string>
 		<string>azon_db</string>
 		<string>values ('Christmas Trees', 'Garden', 79, 30)</string>
 		<string>CREATE DATABASE bamazon_db</string>
